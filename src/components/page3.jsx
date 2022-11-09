@@ -9,7 +9,7 @@ const page3 = () => {
         <h1 className='text-4xl text-center font-bold'>Hang With The Boiz</h1>
       </div>
    
-      <div className='flex flex-wrap justify-center'>
+      <div className='flex flex-wrap justify-center '>
             <div className='flex flex-col rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52'>
                 <p>
                 Big shoutout to the Anyhow citizens, we keep increasing everyday.. we do this all for all of you in the community and also those who are still
