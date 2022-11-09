@@ -5,27 +5,27 @@ import Banner from '../img/Frame.png'
 
 const fame = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 text-center'>
-      <div>
-      <h1 className='font-bold text-3xl'>Hall Of Fame</h1>
+    <div className='max-w-[1040px] lg:m-6 lg:ml-6  py-16 text-center justify-center items-center'>
+      <div className='text-center justify-center'>
+      <h1 className='font-bold text-3xl text-center lg:ml-20'>Hall Of Fame</h1>
       </div>
         
-        <div className=' rounded-lg shadow-md w-full m-6 overflow-hidden lg:flex-col '>
-                <img src={Pic1} alt="" />
+        <div className=' rounded-lg shadow-md w-full  lg:m-6 lg:ml-20 overflow-hidden lg:flex-col  justify-center items-center text-center'>
+                <img  className=' justify-center items-center' src={Pic1} alt="" />
             </div>
 
-            <div className=' rounded-lg shadow-md w-full m-6 overflow-hidden lg:flex-col '>
+            <div className=' rounded-lg shadow-md lg:m-6 w-full py-3 lg:ml-20 overflow-hidden lg:flex-col  justify-center items-center'>
                 <img src={Pic2} alt="" />
             </div>
 
-            <div className='flex flex-col rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52'>
+            <div className='flex flex-col rounded-lg lg:m-6 shadow-md w-full  overflow-hidden sm:w-52'>
                 <p>
 
                 </p>
             </div>
 
-            <div className='pt-8' >
-              <img className='w-[1509px]' src={Banner} alt="" />
+            <div className='pt-8 items-center justify-center m-6 ml-20' >
+              <img className='w-[1509px] justify-center' src={Banner} alt="" />
             </div>
     </div>
   )

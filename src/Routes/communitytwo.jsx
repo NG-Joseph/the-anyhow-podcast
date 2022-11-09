@@ -10,7 +10,7 @@ const communitytwo = () => {
   const videoSrc = S3_GLOBAL_PREFIX + "bck.mp4"//bg;
 
   return (
-    <div className='py-12 px-4'>
+    <div className='py-12 px-4 bg-[#4DBF13] items-center justify-center'>
 
       <VideoPlayer
         src={videoSrc}
@@ -44,8 +44,8 @@ const communitytwo = () => {
       </div>
 
       <div className='pl-9'>
-        <h2 className='Font-normal text-xl'> About Our Community </h2>
-        <p className=' pt-4 font-[24px] indent-1  leading-8 '>The Anyhow wrld is a space where everyone is welcome. we are building a 100% safe space
+        <h2 className='Font-normal text-xl py-4'> About Our Community </h2>
+        <p className=' pt-4 font-[24px] indent-1 py-4 leading-8 '>The Anyhow wrld is a space where everyone is welcome. we are building a 100% safe space
           for everyone to come in and safely express their different opinions without fear of being invaded, insulted or looked down in any way. The vision
           behind the anyhow wrld is for us to inspire all our citizens to be themselves and be the best </p>
       </div>

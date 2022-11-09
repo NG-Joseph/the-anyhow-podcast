@@ -7,7 +7,7 @@ import Nevermiss from '../components/nevermiss'
 
 const episode = () => {
   return (
-    <div className='relative items-center justify-center '>
+    <div className='relative items-center bg-[#4DBF13] justify-center '>
         {/* <div className=' flex text-center pt-12 '>
           <p className='font-Violet Sans font-normal text-center lg:pl-60 text-black text-3xl'>Episode 21</p>
           <p className='font-Violet Sans font-normal text-[#808080] text-3xl lg:pl-40'>Episode 22</p>

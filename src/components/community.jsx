@@ -15,10 +15,10 @@ const Slider = () => {
   },[])
 
   return (
-    <div className=' bg-[#F5F5F5] py-12 px-4'>
+    <div className=' bg-[#F5F5F5] py-48 px-4 '>
 
 <div>
-        <h1 className='text-black text-center font-medium text-3xl'>Community</h1>
+        <h1 className='text-black text-center font-medium text-3xl py-8'>Community</h1>
     </div>
 
 

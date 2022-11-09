@@ -27,7 +27,7 @@ const Episodecard = () => {
 
 
   return (
-    <div className=' grid md:grid-cols-2 '>
+    <div className=' grid md:grid-cols-2 bg-[#4DBF13] mb-36 '>
       <div className=' lg:ml-48 '>
         <img className=' px-3 pt-8 py-3 ' src={Pod} width={400} height={800} alt="" />
       </div>
@@ -41,9 +41,9 @@ const Episodecard = () => {
         <audio src={song}
           ref={audioRef}
         ></audio>
-        <div className=' py-3 flex flex-row justify-between'>
-          <button onClick={play} className='rounded-xl   text-xl font-bold lg: bg-white text-black w-[180px] p-[20px] text-center border border-solid cursor-pointer border-black' >Play</button>
-          <a href="https://youtu.be/qtMR06Ocr9g"> <button className='rounded-xl  text-xl font-bold bg-white lg:mr-48 text-black w-[180px] p-[20px] px-3 text-center border border-solid cursor-pointer border-black' >Video</button> </a>
+        <div className=' py-3 flex flex-row justify-center'>
+          <button onClick={play} className='rounded-xl   text-xl font-bold lg: bg-white text-black w-[200px] p-[20px] text-center border border-solid cursor-pointer border-black justify-center' >Play</button>
+          {/* <a href="https://youtu.be/qtMR06Ocr9g"> <button className='rounded-xl  text-xl font-bold bg-white lg:mr-48 text-black w-[180px] p-[20px] px-3 text-center border border-solid cursor-pointer border-black' >Video</button> </a> */}
         </div>
 
       </div>
