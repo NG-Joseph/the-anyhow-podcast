@@ -14,7 +14,8 @@ import Navbar from './components/Navbar'
 function App() {
   return (
    <>
-   <h1> We are scammers and we scammed the developer of this website and did not pay him. Please avoid working with us or watching this podcast at all costs </h1>
+    
+   ERROR 404: Please contact your administrator
    </>
   );
 }
