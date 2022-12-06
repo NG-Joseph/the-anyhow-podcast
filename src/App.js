@@ -14,18 +14,7 @@ import Navbar from './components/Navbar'
 function App() {
   return (
    <>
-     <Navbar />
-     <Routes>
-    <Route path='/' element={<Home />} />
-    <Route path='/episode' element={<Episode />} />
-    <Route path='/communitytwo' element={<Communitytwo />} />
-    <Route path='/comingsoon' element={<Comingsoon />}/>
-  
-    
-   
-    
-      </Routes>
-    <Footer />
+   <h1> We are scammers and we scammed the developer of this website and did not pay him. Please avoid working with us or watching this podcast at all costs </h1>
    </>
   );
 }
