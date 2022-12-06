@@ -15,7 +15,7 @@ function App() {
   return (
    <>
     
-   ERROR 404: Please contact your administrator
+   
    </>
   );
 }
